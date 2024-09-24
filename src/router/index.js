@@ -6,6 +6,7 @@ import ServiciosPage from "../components/ServiciosPage.vue";
 import DonarPage from "../components/DonarPage.vue";
 import ContactoPage from "../components/ContactoPage.vue";
 import DirectorioPage from "../components/DirectorioPage.vue";
+import NotFoundComponent from "../components/NotFoundComponent.vue";
 
 const routes = [
   {
@@ -45,8 +46,8 @@ const routes = [
   },
   {
     path: "/:catchAll(.*)",
-    name: "NotFound",
-    component: () => import("../components/NotFoundComponent.vue"),
+    name: "NotFoundComponent",
+    component: NotFoundComponent,
   },
 ];
 

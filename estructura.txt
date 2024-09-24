@@ -1,0 +1,68 @@
+public/
+├── AlbergueCasaArcoirisLogo.ico
+├── index.html
+|
+src/
+├── assets/
+│   ├── images/
+│   │   ├── AcercaDeNosotros/
+|   |   |   ├── imagen_acerca_de_nosotros_1.jpg
+|   |   |   ├── imagen_acerca_de_nosotros_1.jpg
+|   |   |   ├── imagen_acerca_de_nosotros_3.jpg
+│   │   ├── Contacto/
+|   |   |   ├── imagen_contacto_1.jpg
+|   |   |   ├── imagen_contacto_2.jpg
+|   |   |   ├── imagen_contacto_3.jpg
+│   │   ├── Directorio/
+|   |   |   ├── imagen_directorio_1.jpg
+|   |   |   ├── imagen_directorio_2.jpg
+|   |   |   ├── imagen_directorio_3.jpg
+│   │   ├── Donar/
+|   |   |   ├── imagen_donar_1.jpg
+|   |   |   ├── imagen_donar_2.jpg
+|   |   |   ├── imagen_donar_3.jpg
+│   │   ├── Inicio/
+|   |   |   ├── imagen_inicio_1.jpg
+|   |   |   ├── imagen_inicio_2.jpg
+|   |   |   ├── imagen_inicio_3.jpg
+│   │   ├── MisionVisionPrincipios/
+|   |   |   ├── imagen_mision_vision_principios_1.jpg
+|   |   |   ├── imagen_mision_vision_principios_2.jpg
+|   |   |   ├── imagen_mision_vision_principios_3.jpg
+│   │   ├── Servicios/
+|   |   |   ├── imagen_servicios_1.jpg
+|   |   |   ├── imagen_servicios_2.jpg
+|   |   |   ├── imagen_servicios_3.jpg
+│   ├── styles/
+|   │   ├── tailwind.css
+│   ├── AlbergueCasaArcoirisLogo.ico
+│   ├── logo192.png
+│   ├── logo512.png
+├── components/
+│   ├── AcercaDeNosotrosPage.vue
+│   ├── ContactoPage.vue
+│   ├── DirectorioPage.vue
+│   ├── DonarPage.vue
+│   ├── InicioPage.css
+│   ├── InicioPage.vue
+│   ├── MisionVisionPrincipiosPage.vue
+│   ├── ServiciosPage.vue
+│   └── MainContainer.vue
+├── App.vue
+├── router/
+|   └── index.js
+├── .browserslistrc
+├── .eslintrc.js
+├── .gitattributes
+├── .gitignore
+├── albergue_casa_arcoiris_spa.code-workspace
+├── babel.config.js
+├── estructura.txt
+├── jsconfig.json
+├── LICENSE
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+└── vue.config.js
