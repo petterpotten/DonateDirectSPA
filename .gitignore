@@ -3,6 +3,7 @@
 
 # Dependencies / Dependencias
 node_modules/              # Carpeta de dependencias de Node.js
+node_modules
 /dist/                     # Carpeta de distribución generada durante la compilación
 
 # Local env files / Archivos de configuración local
