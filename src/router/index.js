@@ -1,20 +1,52 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "../views/HomeView.vue";
+import InicioPage from "../components/InicioPage.vue";
+import AcercaDeNosotrosPage from "../components/AcercaDeNosotrosPage.vue";
+import MisionVisionPrincipiosPage from "../components/MisionVisionPrincipiosPage.vue";
+import ServiciosPage from "../components/ServiciosPage.vue";
+import DonarPage from "../components/DonarPage.vue";
+import ContactoPage from "../components/ContactoPage.vue";
+import DirectorioPage from "../components/DirectorioPage.vue";
 
 const routes = [
   {
     path: "/",
-    name: "home",
-    component: HomeView,
+    name: "InicioPage",
+    component: InicioPage,
   },
   {
-    path: "/about",
-    name: "about",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
+    path: "/acerca-de-nosotros",
+    name: "AcercaDeNosotrosPage",
+    component: AcercaDeNosotrosPage,
+  },
+  {
+    path: "/mision-vision-principios",
+    name: "MisionVisionPrincipiosPage",
+    component: MisionVisionPrincipiosPage,
+  },
+  {
+    path: "/servicios",
+    name: "ServiciosPage",
+    component: ServiciosPage,
+  },
+  {
+    path: "/donar",
+    name: "DonarPage",
+    component: DonarPage,
+  },
+  {
+    path: "/contacto",
+    name: "ContactoPage",
+    component: ContactoPage,
+  },
+  {
+    path: "/directorio",
+    name: "DirectorioPage",
+    component: DirectorioPage,
+  },
+  {
+    path: "/:catchAll(.*)",
+    name: "NotFound",
+    component: () => import("../components/NotFoundComponent.vue"),
   },
 ];
 
