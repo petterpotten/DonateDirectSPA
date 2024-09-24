@@ -1,23 +1,33 @@
-.DS_Store
-node_modules
-/dist
+# System files / Archivos de sistema
+.DS_Store                  # Archivos de metadatos de macOS
 
+# Dependencies / Dependencias
+node_modules               # Carpeta de dependencias de Node.js
+/dist                      # Carpeta de distribución generada durante la compilación
 
-# local env files
-.env.local
-.env.*.local
+# Local env files / Archivos de configuración local
+.env.local                # Archivos de entorno locales
+.env.*.local              # Archivos de entorno locales para diferentes entornos
 
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+# Log files / Archivos de registro
+npm-debug.log*            # Archivos de registro de errores de npm
+yarn-debug.log*           # Archivos de registro de errores de Yarn
+yarn-error.log*           # Archivos de error de Yarn
+pnpm-debug.log*           # Archivos de registro de errores de pnpm
 
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Editor directories and files / Configuración de editores
+.idea                     # Configuraciones de IntelliJ IDEA
+.vscode                   # Configuraciones de Visual Studio Code
+*.suo                     # Archivos de soluciones de Visual Studio
+*.ntvs*                   # Archivos de proyectos de Node.js en Visual Studio
+*.njsproj                 # Archivos de proyectos de Node.js
+*.sln                     # Archivos de soluciones de Visual Studio
+*.sw?                     # Archivos temporales de editores (como Vim)
+
+# Build and output / Compilación y salida
+/build                    # Carpeta de compilación
+*.tgz                     # Archivos comprimidos de tarball
+
+# Temporary files / Archivos temporales
+*.log                     # Archivos de registro
+*.tmp                     # Archivos temporales
