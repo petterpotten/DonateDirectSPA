@@ -46,6 +46,7 @@ albergue_casa_arcoiris_spa
 │   │   ├── DonarPage.vue
 │   │   ├── InicioPage.css
 │   │   ├── InicioPage.vue
+│   │   ├── MainContainer.css
 │   │   ├── MainContainer.vue
 │   │   ├── MisionVisionPrincipiosPage.vue
 │   │   ├── NotFoundComponent.vue 

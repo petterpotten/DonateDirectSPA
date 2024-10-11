@@ -1,0 +1,52 @@
+/* Estilos para la sección Donar */
+.donate-container {
+    width: 100%;
+    height: 100vh; /* Ocupa el 100% de la altura de la pantalla */
+    background-image: url('@/assets/images/Donar/imagen_donar_1.jpg'); /* Asegúrate de que la ruta sea correcta */
+    background-size: cover; /* La imagen cubrirá toda el área */
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .donate-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Filtro oscuro semi-transparente */
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  .donate-overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .donate-overlay p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Estilo para el botón de donación con imagen personalizada */
+  .donate-button {
+    width: 200px;
+    height: 60px;
+    background-color: #ffcc00; /* Color de fondo dorado */
+    color: #000; /* Texto en negro */
+    border-radius: 30px; /* Bordes redondeados */
+    border: 2px solid #000; /* Borde negro */
+    font-size: 18px; /* Tamaño del texto */
+    font-weight: bold; /* Texto en negrita */
+    text-align: center;
+    line-height: 60px; /* Alineación vertical del texto */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .donate-button:hover {
+    background-color: #ffd700; /* Color dorado más brillante al pasar el ratón */
+    transform: scale(1.05); /* Efecto de agrandamiento en hover */
+  }
+  
