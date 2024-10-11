@@ -27,7 +27,7 @@
     height: auto;
     max-height: 100%; /* Ajusta la imagen para que no sobrepase la altura del contenedor */
     object-fit: cover; /* Mantiene la proporción de la imagen, recortando si es necesario */
-    border-radius: 8px; /* Opcional: Bordes redondeados para las imágenes */
+    border-radius: 8px; /* Opcional: Bordes redondeados para las imágenes (8px)*/
     transition: opacity 0.3s ease; /* Transición suave al cambiar la opacidad */
   }
   

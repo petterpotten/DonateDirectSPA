@@ -83,8 +83,4 @@ export default {
 };
 </script>
 
-<style scoped>
-nav {
-  z-index: 10; /* Asegúrate de que el menú esté por encima del contenido */
-}
-</style>
+<style scoped src="./MainContainer.css"></style>
