@@ -14,7 +14,6 @@
       >
         Donar Ahora
       </a>
-
       <!-- Sección de tarjetas aceptadas -->
       <div class="cards-accepted flex justify-center mt-6">
         <img

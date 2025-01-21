@@ -49,6 +49,15 @@
       <DirectorioPage />
       <!-- Componente Directorio -->
     </section>
+
+    <!-- Botón flotante -->
+    <button
+      v-show="showScrollButton"
+      class="scroll-to-top"
+      @click="scrollTo('inicio')"
+    >
+      ▲
+    </button>
   </div>
 </template>
 
@@ -72,6 +81,11 @@ export default {
     ContactoPage,
     DirectorioPage,
   },
+  data() {
+    return {
+      showScrollButton: false, // Controla la visibilidad del botón flotante
+    };
+  },
   methods: {
     scrollTo(section) {
       const element = document.getElementById(section);
@@ -79,6 +93,15 @@ export default {
         element.scrollIntoView({ behavior: "smooth" });
       }
     },
+    handleScroll() {
+      this.showScrollButton = window.scrollY > 100; // Muestra el botón si el scroll supera 100 píxeles
+    },
+  },
+  mounted() {
+    window.addEventListener("scroll", this.handleScroll); // Escucha el evento de scroll
+  },
+  beforeUnmount() {
+    window.removeEventListener("scroll", this.handleScroll); // Limpia el evento al desmontar el componente
   },
 };
 </script>
